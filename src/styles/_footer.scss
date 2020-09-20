@@ -1,0 +1,23 @@
+.footer-container {
+  min-height: 9vh;
+  display: flex;
+  align-items: center;
+  background: #343333;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.footer-body {
+  flex: 1 1 25rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-media {
+  flex: 1 1 25rem;
+  display: flex;
+  justify-content: space-around;
+  .fab {
+    color: white;
+  }
+}

@@ -1,0 +1,40 @@
+.navbar-container {
+  background: #343333;
+}
+
+nav {
+  min-height: 10vh;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  flex: 2 1 25rem;
+  font-size: 2rem;
+  font-weight: normal;
+  color: white;
+  font-family: "Pattaya", sans-serif;
+}
+
+.menu {
+  flex: 1 1 25rem;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+
+  li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+
+  .is-active {
+    background: rgb(7, 156, 255);
+    border-radius: 10px;
+  }
+}
