@@ -23,11 +23,6 @@ body {
     p {
       padding: 1rem;
     }
-    .home-image {
-      img {
-        display: none;
-      }
-    }
   }
 
   .logo {
@@ -44,6 +39,14 @@ body {
 
   .card-body {
     font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .home-image {
+    img {
+      display: none;
+    }
   }
 
   .menu {
